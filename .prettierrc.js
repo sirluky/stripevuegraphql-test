@@ -6,7 +6,6 @@ module.exports = {
   jsxBracketSameLine: true,
   bracketSpacing: true,
   singleQuote: true,
-  jsxBracketSameLine: true,
   tabWidth: 2,
   eslintIntegration: true,
 };

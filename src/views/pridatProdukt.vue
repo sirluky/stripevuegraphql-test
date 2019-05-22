@@ -20,6 +20,7 @@
 
 <script>
 import gql from 'graphql-tag';
+
 export default {
   data() {
     return {

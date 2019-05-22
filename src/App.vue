@@ -20,7 +20,7 @@ import moment from 'moment/moment';
 import gql from 'graphql-tag';
 import Auth from './components/auth/auth';
 import settings from '@/ProjectSettings.json';
-import { setTimeout, clearTimeout } from 'timers';
+// import { setTimeout, clearTimeout } from 'timers';
 
 // import Ukoly from '@/views/Ukoly.vue';
 export default {
@@ -69,7 +69,7 @@ export default {
     validate() {
       if (this.validate && this.validate.success === true) {
         this.loggedIn = true;
-        // console.log('valid ?', this.validate);
+        console.log('valid ?', this.validate);
 
         let expirationIn = moment(Number(this.validate.expiration)).diff();
         if (LogoutInterval) {
